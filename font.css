@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "Noto Sans";
+    src: fontFile("NotoSans-Medium.otf") format("opentype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: fontFile("NotoSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "icomoon";
+  src: iconFile("icomoon.ttf");
+  src: iconFile("icomoon.woff") format("embedded-opentype"),
+  iconFile("icomoon.ttf") format("truetype"), iconFile("icomoon.woff") format("woff"),
+  iconFile("icomoon.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "icons-v3-1";
+  src: iconFile("icons-v3-1/icons-v3-1.ttf");
+  src: iconFile("icons-v3-1/icons-v3-1.woff") format("embedded-opentype"),
+  iconFile("icons-v3-1/icons-v3-1.ttf") format("truetype"), iconFile("icons-v3-1/icons-v3-1.woff") format("woff"),
+  iconFile("icons-v3-1/icons-v3-1.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
